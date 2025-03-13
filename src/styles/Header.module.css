@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.searchContainer {
+    position: relative;
+}
+
+.searchBar {
+    height: max-content;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid;
+    cursor: pointer;
+}  
+
+.searchIcon {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
