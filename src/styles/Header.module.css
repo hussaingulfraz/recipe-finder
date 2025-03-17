@@ -17,17 +17,9 @@
 
 .searchBar {
     height: max-content;
+    width: 260px;
     padding: 5px 10px;
     border-radius: 20px;
     border: 1px solid;
     cursor: pointer;
 }  
-
-.searchIcon {
-    position: absolute;
-    top: 6px;
-    right: 10px;
-    height: 15px;
-    width: 15px;
-    cursor: pointer;
-}
